@@ -13,6 +13,7 @@ class System {
 	public function getDomain() {
 		return $this->domain;
 	}
+	
 	public function timeAgo($lang,$ptime) {
 		$etime = time() - $ptime;
 		if ($etime < 1)
